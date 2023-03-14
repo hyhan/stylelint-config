@@ -1,0 +1,30 @@
+{
+  "name": "@hyhan/stylelint-config",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Hanhui's stylelint config",
+  "keywords": [
+    "stylelint-config"
+  ],
+  "license": "MIT",
+  "author": "hanhui <hanhui858@gmail.com> (https://github.com/hyhan)",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "release": "bumpp -r && pnpm -r publish"
+  },
+  "dependencies": {
+    "postcss-html": "^1.5.0",
+    "postcss-less": "^6.0.0",
+    "postcss-scss": "^4.0.6",
+    "stylelint-config-standard": "^30.0.1",
+    "stylelint-order": "^6.0.3"
+  },
+  "devDependencies": {
+    "bumpp": "^9.0.0",
+    "stylelint": "^15.2.0"
+  },
+  "packageManager": "pnpm@7.1.7"
+}
