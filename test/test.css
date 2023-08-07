@@ -1,16 +1,15 @@
 .box {
-	margin: 0;
-	border: 1px solid #fff;
-	background: #000;
-	opacity: .5;
+  margin: 0;
+  background: #000;
+  border: 1px solid #fff;
+  opacity: 0.5;
 }
 /* 123 */
 
 .box:hover {
-	opacity: 1;
+  opacity: 0.1;
 
-	.box:hover .box__title {
-		color: #fff;
-	}
+  .box:hover .box__title {
+    color: #fff;
+  }
 }
-

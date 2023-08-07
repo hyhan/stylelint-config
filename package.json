@@ -19,12 +19,16 @@
     "postcss-html": "^1.5.0",
     "postcss-less": "^6.0.0",
     "postcss-scss": "^4.0.6",
-    "stylelint-config-standard": "^30.0.1",
-    "stylelint-order": "^6.0.3"
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-recess-order": "^4.3.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-prettier": "^4.0.2"
   },
   "devDependencies": {
-    "bumpp": "^9.0.0",
-    "stylelint": "^15.2.0"
+    "bumpp": "^9.1.1",
+    "stylelint": "^15.10.2"
   },
   "packageManager": "pnpm@7.1.7"
 }
